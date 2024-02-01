@@ -1,1 +1,2 @@
-# Battery-Management-Lab
+# power-saving strategy
+The ESP32 script employs several power-saving measures: it activates Wi-Fi and Firebase only when necessary, uses deep sleep mode to minimize energy consumption, limits sensor polling frequency, constraints Wi-Fi connection attempts, and restarts the system upon Firebase authentication failures to avoid unnecessary power usage. These strategies together ensure efficient energy use, prolonging battery life while maintaining essential device functionality.
